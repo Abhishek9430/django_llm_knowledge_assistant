@@ -1,0 +1,13 @@
+Django>=4.2
+djangorestframework>=3.14
+python-dotenv
+openai==0.28
+faiss-cpu>=1.7.4    # use faiss-gpu if you have GPU
+numpy>=1.24
+pandas>=2.0
+sentence-transformers>=2.2.2   # optional alternative to OpenAI embeddings
+python-magic>=0.4.27           # file type detection for uploaded files
+pdfplumber>=0.7.9              # pdf text extraction
+tqdm
+gunicorn
+uvicorn
